@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Guessing Game</title>
+    <!--Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link ref="stylesheet" href="assets/css/ButtonBack.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/puzzle.css" />
+  </head>
+  <body>
+    <div id="content">
+        <a href="index.html" class="backButton"><img src="images/arrow_back (1).png" alt="Back"></a>
+        <style>
+            .backButton {
+                display: inline-block;
+                padding: 100px;
+                border: none;
+                background: none;
+                cursor: pointer;
+}
+
+.backButton img {
+    width: 50px; /* Điều chỉnh kích thước của hình ảnh mũi tên */
+    height: auto;
+}
+        </style>
+    </div>
+
+    <div class="wrapper">
+      <div class="hint-ref"></div>
+      <div id="user-input-section"></div>
+      <div id="message"></div>
+      <div id="letter-container"></div>
+    </div>
+    <div class="controls-container">
+      <div id="result"></div>
+      <div id="word"></div>
+      <button id="start">Start</button>
+    </div>
+    <!-- Script -->
+    <script src="assets/js/puzzle.js"></script>
+  </body>
+</html>
